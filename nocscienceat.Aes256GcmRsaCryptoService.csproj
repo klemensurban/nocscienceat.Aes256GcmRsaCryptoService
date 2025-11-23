@@ -16,6 +16,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageProjectUrl>https://github.com/klemensurban/nocscienceat.Aes256GcmRsaCryptoService</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
