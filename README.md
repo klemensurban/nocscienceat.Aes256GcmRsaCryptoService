@@ -47,7 +47,7 @@ using nocscienceat.Aes256GcmRsaCryptoService;
 ...
 ...
 // Encrypt data: 
-byte[] Encrypt(ReadOnlySpan<byte> cipherTextSpan, string encryptionCertificateThumbprint, string signingCertificateThumprint, bool localMachine)
+byte[] Encrypt(ReadOnlySpan<byte> plainTextSpan, string encryptionCertificateThumbprint, string signingCertificateThumprint, bool localMachine)
 
 // Decrypt data: 
 byte[] Decrypt(ReadOnlySpan<byte> cipherTextSpan, string encryptionCertificateThumbprint, string signingCertificateThumprint, bool localMachine)
